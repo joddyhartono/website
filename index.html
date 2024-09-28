@@ -24,19 +24,19 @@
         </div>
     </div>
 
-    <div class="skill">
-        <div class="certificates">
-            <div class="certi-1">
+    <div class="certificate">
+        <div class="certificate-container">
+            <div class="certi-item">
                 <img src="./assets/images/certi1.png" alt="certi-1" height="250">
                 <h3>Dacode : Data Structure Course</h3>
                 <p>24th February 2023</p>
             </div>
-            <div class="certi-2">
+            <div class="certi-item">
                 <img src="./assets/images/certi2.jpg" alt="certi-2" height="250">
                 <h3>Dacode : Database and Computer Network Course</h3>
                 <p>21st August 2023</p>
             </div>
-            <div class="certi-3">
+            <div class="certi-item">
                 <img src="./assets/images/certi3.jpg" alt="certi-3" height="250">
                 <h3>The Complete 2024 Web Development Bootcamp</h3>
                 <p>21st August 2024</p>
@@ -45,29 +45,46 @@
         <h2>Certificates</h2>
     </div>
 
+    <div class="modal" id="modal">
+        <button class="close-button">&times;</button>
+        <img class="modal-body" id="modal-body">
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+
     <div class="project">
         <h2>Projects</h2>
-        <div class="images">
-            <img src="./assets/images/project1.png" alt="project-1" height="150">
-            <img src="./assets/images/project2.png" alt="project-2" height="150">
-            <img src="./assets/images/project3.png" alt="project-3" height="150">
-
+        <div class="project-container">
+            <div class="project-item" id="first-project">
+                <a href="https://github.com/joddyhartono/VhoTel">
+                    <img src="./assets/images/project1.png" alt="project-1" height="175">
+                </a>
+            </div>
+            <div class="project-item">
+                <a href="https://github.com/selikaanjani/RAiso">
+                    <img src="./assets/images/project2.png" alt="project-2" height="175">
+                </a>
+            </div>
+            <div class="project-item">
+                <a href="https://github.com/BBertt/Viconify">
+                    <img src="./assets/images/project3.png" alt="project-3" height="175">
+                </a>
+            </div>
         </div>
-        <p>All projects I made, whether by myself or with my friends.</p>
+        <p>Some of the projects that I made, whether by myself or with my friends.</p>
     </div>
 
     <div class="contact">
         <h2>Contact</h2>
         <img src="./assets/images/contact.png" alt="contact" height="500">
         <p>
-            <i data-feather="phone"></i> +62 812 9598 3366<br>
-            <i data-feather="mail"></i> joddyhartono1@gmail.com<br>
-            <i data-feather="linkedin"></i> joddy-hartono-a42940293
+            <svg data-feather="phone"></svg><span>+62 812 9598 3366</span><br>
+            <svg data-feather="mail"></svg><a href="mailto:joddyhartono1@gmail.com">joddyhartono1@gmail.com</a><br>
+            <svg data-feather="linkedin"></svg><a href="https://www.linkedin.com/in/joddy-hartono-a42940293/">joddy-hartono-a42940293</a><br>
+            <svg data-feather="github"></svg><a href="https://github.com/joddyhartono">joddyhartono</a>
         </p>
     </div>
 
-    <script>
-        feather.replace();
-    </script>
+    <script src="./scripts/script.js" defer></script>
 </body>
 </html>
