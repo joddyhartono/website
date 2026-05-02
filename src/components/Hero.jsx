@@ -9,7 +9,7 @@ function Hero() {
         I build things and am continuously learning and growing.
       </p>
       <div className="mt-3 flex gap-3 flex-wrap">
-        <a href="https://github.com/joddy3">
+        <a href="https://github.com/joddyhartono">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

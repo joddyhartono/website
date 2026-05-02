@@ -15,7 +15,7 @@ function Experience({ projects }) {
         />
       ))}
       <h3 className="mt-6 inline-block text-lg font-medium text-slate-200 hover:underline underline-offset-4 decoration-teal-400 group">
-        <a href="https://github.com/joddy3">
+        <a href="https://github.com/joddyhartono">
           View Full Project Archive
           <svg
             xmlns="http://www.w3.org/2000/svg"
