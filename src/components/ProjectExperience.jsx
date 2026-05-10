@@ -1,6 +1,6 @@
 import Card from "./Card";
 
-function Experience({ projects }) {
+function ProjectExperience({ projects }) {
   return (
     <div className="mt-12">
       <h2 className="text-lg font-medium text-slate-200">Project Experience</h2>
@@ -36,4 +36,4 @@ function Experience({ projects }) {
   );
 }
 
-export default Experience;
+export default ProjectExperience;
