@@ -3,9 +3,9 @@ function About() {
     <div className="mt-12">
       <h2 className="text-lg font-medium text-slate-200">About</h2>
       <p className="mt-3">
-        I'm an{" "}
+        I'm a{" "}
         <span className="font-medium text-slate-200 hover:text-teal-400">
-          Undergraduate Computer Science Student
+          Fresh Graudate in Computer Science
         </span>{" "}
         passionate about{" "}
         <span className="font-medium text-slate-200 hover:text-teal-400">

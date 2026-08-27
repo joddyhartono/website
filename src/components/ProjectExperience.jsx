@@ -11,7 +11,7 @@ function ProjectExperience({ projects }) {
           description={project.description}
           languages={project.languages}
           image={project.image}
-          link={project.link}
+          links={project.links}
         />
       ))}
       <h3 className="mt-6 inline-block text-lg font-medium text-slate-200 hover:underline underline-offset-4 decoration-teal-400 group">
